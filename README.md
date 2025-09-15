@@ -15,12 +15,15 @@ python main.py
 
 ## Project structure
 
-- main.py                 # entry point (performance + S1 sensitivity)
-- solver.py               # MILP model (Gurobi)
-- generate_instances.py   # scenario generators (V1/V2/V3)
-- GBT.py                  # demand forecasting (data prep + HGBR pipeline)
-- sensitivity_analysis.py # Morris sampling, evaluation, analysis, plotting
-- the_burger_spot.csv     # input data (row-level orders)
+| File | Description |
+|---|---|
+| `main.py`               | Entry point (performance + S1 sensitivity) |
+| `solver.py`             | MILP model (Gurobi) |
+| `generate_instances.py` | Scenario generators (V1/V2/V3) |
+| `GBT.py`                | Demand forecasting (data prep + HGBR pipeline) |
+| `sensitivity_analysis.py` | Morris sampling, evaluation, analysis, plotting |
+| `the_burger_spot.csv`   | Input data (row-level orders) |
+
 
 ## Data
 
