@@ -6,16 +6,11 @@
 - Packages:
   ```bash
   pip install numpy pandas scikit-learn SALib matplotlib gurobipy
- **Gurobi-Hinweis** unter Requirements
-```markdown
-> Note: `gurobipy` requires a local Gurobi installation and a valid license (academic or commercial).
-
+  
 ## Quick start
 
 ```bash
 python main.py
-
-
 
 ## Project structure
 
