@@ -7,10 +7,11 @@
   ```bash
   pip install numpy pandas scikit-learn SALib matplotlib gurobipy
 
-## Quickstart
+## Quick start
 
-### In repo root:
+```bash
 python main.py
+
 
 
 ## Project structure
