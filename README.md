@@ -9,7 +9,6 @@
   
 ## Quick start
 
-```bash
 python main.py
 
 ## Project structure
