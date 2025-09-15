@@ -10,8 +10,6 @@
 ```markdown
 > Note: `gurobipy` requires a local Gurobi installation and a valid license (academic or commercial).
 
-
-
 ## Quick start
 
 ```bash
