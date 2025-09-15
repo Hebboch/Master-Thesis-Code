@@ -9,7 +9,7 @@
 
 ## Quickstart
 
-# in the repo root:
+### in the repo root:
 python main.py
 
 
