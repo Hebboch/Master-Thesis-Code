@@ -13,11 +13,12 @@
 python main.py
 
 
+```markdown
 ## Project structure
 
-main.py                 # entry point (performance + S1 sensitivity)
-solver.py               # integer linear model (Gurobi)
-generate_instances.py   # scenario generators (V1/V2/V3)
-GBT.py                  # demand forecasting (data prep + Gradient Boosting Trees)
-sensitivity_analysis.py # Morris sampling, evaluation, analysis, plotting
-the_burger_spot.csv     # input data (row-level orders)
+- `main.py` — entry point (performance + S1 sensitivity)
+- `solver.py` — MILP model (Gurobi)
+- `generate_instances.py` — scenario generators (V1/V2/V3)
+- `GBT.py` — demand forecasting (data prep + HGBR pipeline)
+- `sensitivity_analysis.py` — Morris sampling, evaluation, analysis, plotting
+- `the_burger_spot.csv` — input data (row-level orders)
