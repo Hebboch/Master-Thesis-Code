@@ -21,3 +21,12 @@ python main.py
 - GBT.py                  # demand forecasting (data prep + HGBR pipeline)
 - sensitivity_analysis.py # Morris sampling, evaluation, analysis, plotting
 - the_burger_spot.csv     # input data (row-level orders)
+
+## Data
+
+`the_burger_spot.csv` must be placed in the repository root.  
+`GBT.py` reads it directly and derives the weekday from the `Date` column.
+
+```text
+repo-root/
+  the_burger_spot.csv
