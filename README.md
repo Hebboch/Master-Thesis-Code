@@ -15,10 +15,10 @@ python main.py
 
 | File | Description |
 |---|---|
-| `main.py`               | Entry point (performance + S1 sensitivity) |
+| `main.py`               | Entry point (performance analysis + S1 sensitivity analysis) |
 | `solver.py`             | MILP model (Gurobi) |
-| `generate_instances.py` | Scenario generators (V1/V2/V3) |
-| `GBT.py`                | Demand forecasting (data prep + HGBR pipeline) |
+| `generate_instances.py` | Scenario generators (S1/S2/S3) |
+| `GBT.py`                | Demand forecasting (data prep + pipeline) |
 | `sensitivity_analysis.py` | Morris sampling, evaluation, analysis, plotting |
 | `the_burger_spot.csv`   | Input data (row-level orders) |
 
