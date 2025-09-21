@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- Python 3.10+ (tested with 3.11)
+- Tested with Python 3.11
 - Packages:
   ```bash
   pip install numpy pandas scikit-learn SALib matplotlib gurobipy
