@@ -17,7 +17,7 @@ python main.py
 |---|---|
 | `main.py`               | Entry point (performance analysis + S1 sensitivity analysis) |
 | `solver.py`             | MILP model (Gurobi) |
-| `generate_instances.py` | Scenario generators (S1/S2/S3) |
+| `generate_instances.py` | Scenario generators (S1,S2,S3) |
 | `GBT.py`                | Demand forecasting (data prep + pipeline) |
 | `sensitivity_analysis.py` | Morris sampling, evaluation, analysis, plotting |
 | `the_burger_spot.csv`   | Input data (row-level orders) |
