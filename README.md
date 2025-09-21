@@ -26,4 +26,3 @@ python main.py
 ## Data
 
 `the_burger_spot.csv` must be placed in the repository root.  
-`GBT.py` reads it directly and derives the weekday from the `Date` column.
